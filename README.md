@@ -35,23 +35,7 @@ This React project is a simple weather application that fetches weather data bas
    npm install
    ```
 
-   or
 
-   ```bash
-   yarn install
-   ```
-
-4. **Obtain an API key:**
-
-   Get an API key from a weather service provider (e.g., OpenWeatherMap, WeatherAPI).
-
-5. **Create a `.env` file:**
-
-   Create a `.env` file in the root directory of the project and add your API key:
-
-   ```
-   REACT_APP_API_KEY=your_api_key_here
-   ```
 
 6. **Start the development server:**
 
@@ -59,11 +43,6 @@ This React project is a simple weather application that fetches weather data bas
    npm start
    ```
 
-   or
-
-   ```bash
-   yarn start
-   ```
 
 7. **View the application:**
 
@@ -75,10 +54,6 @@ This React project is a simple weather application that fetches weather data bas
 2. Press the "Search" button or hit Enter.
 3. The application will fetch the weather data for the entered city and display it on the screen.
 4. The background image will change dynamically based on the temperature to reflect the current weather condition.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
 ## License
 
