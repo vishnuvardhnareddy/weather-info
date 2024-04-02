@@ -1,4 +1,3 @@
-```
 # Weather React App
 
 This React project is a simple weather application that fetches weather data based on the city entered by the user. It utilizes an external weather API to retrieve current weather information such as temperature, wind flow, and other related data. Additionally, it dynamically updates the background image according to the temperature.
@@ -86,4 +85,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-Feel free to customize it further to fit your project's specific needs!
+Just paste this into your README file and save it!
