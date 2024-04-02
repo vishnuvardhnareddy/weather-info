@@ -40,7 +40,7 @@ This React project is a simple weather application that fetches weather data bas
 6. **Start the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 
@@ -55,9 +55,3 @@ This React project is a simple weather application that fetches weather data bas
 3. The application will fetch the weather data for the entered city and display it on the screen.
 4. The background image will change dynamically based on the temperature to reflect the current weather condition.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Just paste this into your README file and save it!
