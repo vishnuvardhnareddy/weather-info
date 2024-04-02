@@ -1,0 +1,111 @@
+/* .app{
+  height: 1000rem;
+} */
+.container {
+  width: 100vw;
+  height: 42rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(180deg, #03045e,#0077b6); /* Updated background color */
+}
+
+.top-bar {
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 20px; /* Reduced padding */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.top-bar input {
+  flex: 1; /* Take remaining space */
+  max-width: 362px; /* Limit input width */
+  height: 58px; /* Reduced height */
+  background: #caf0f8;
+  color: #0077b6;
+  border: none;
+  outline: none;
+  border-radius: 30px; /* Reduced border radius */
+  padding-left: 30px; /* Reduced padding */
+  color: #35456a; /* Changed text color */
+  font-size: 18px; /* Reduced font size */
+  font-weight: 400;
+}
+
+.search-icon {
+  width: 58px; /* Reduced width */
+  height: 58px; /* Reduced height */
+  background: #caf0f8;
+  color: #0077b6;
+  border-radius: 50%; /* Make circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.weather-image {
+  margin-top: 10px; /* Reduced margin */
+  display: flex;
+  justify-content: center;
+}
+
+.weather-image img {
+  max-width: 200px; /* Reduced size */
+  max-height: 200px; /* Reduced size */
+}
+
+.weather-temp {
+  color: white;
+  font-size: 80px; /* Reduced font size */
+  font-weight: 400;
+}
+
+.weather-location {
+  color: white;
+  font-size: 40px; /* Reduced font size */
+  font-weight: 400;
+}
+
+.data-container {
+  margin-top: 30px; /* Reduced margin */
+  color: white;
+  display: flex;
+  flex-wrap: wrap; /* Allow elements to wrap to next line */
+  justify-content: center;
+}
+
+.element {
+  margin: 10px; /* Add spacing between elements */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.data {
+  font-size: 24px; /* Reduced font size */
+  font-weight: 400;
+}
+
+.text {
+  font-size: 16px; /* Reduced font size */
+  font-weight: 400;
+}
+
+.icon {
+  width: 30px; /* Set width for icon images */
+  height: 30px; /* Set height for icon images */
+}
+.head {
+  color: #00b4d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
